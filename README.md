@@ -75,7 +75,7 @@ The model explains approximately **22% of variation** in employee satisfaction.
 
 ## Tools
 
-- **Stata 19**
+- **Stata 19.5 BE**
 - Kaggle platform
 
 ---
