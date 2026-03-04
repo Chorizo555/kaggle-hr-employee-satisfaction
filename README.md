@@ -45,3 +45,61 @@ Key features:
 
 To capture a **non-linear relationship**, a quadratic term was introduced:
 
+
+project_sq = number_project^2
+
+This allows the model to represent an **inverse U-shaped relationship** between project workload and employee satisfaction.
+
+---
+
+## Key Findings
+
+### 1. Employee turnover strongly predicts satisfaction
+
+Employees who left the company show **substantially lower satisfaction levels**.
+
+### 2. Workload shows a non-linear relationship
+
+Satisfaction increases with project involvement initially, but declines when workload becomes excessive.
+
+Estimated optimal workload:
+
+~3–4 projects
+### 3. Model performance
+Public RMSE: 20.16
+
+The model explains approximately **22% of variation** in employee satisfaction.
+
+---
+
+## Tools
+
+- **Stata 19**
+- Kaggle platform
+
+---
+
+## Reproducibility
+
+The full analysis pipeline is available in:
+analysis.do
+
+Steps:
+
+1. Load training data
+2. Preprocess categorical variables
+3. Estimate regression model
+4. Apply model to test dataset
+5. Generate Kaggle submission file
+
+---
+
+## Repository Structure
+
+analysis.do
+README.md
+---
+
+## Author
+
+Tohru
