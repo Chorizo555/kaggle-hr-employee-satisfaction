@@ -8,6 +8,8 @@ The objective is to **predict employee satisfaction scores** using organizationa
 
 Evaluation metric: **Root Mean Squared Error (RMSE)**
 
+Problem Type: **Regression**
+
 Public Score achieved: **20.16**
 
 ---
@@ -47,9 +49,9 @@ To capture a **non-linear relationship**, a quadratic term was introduced:
 
 ```stata
 gen project_sq = number_project^2
+```
 
 This allows the model to represent an **inverse U-shaped relationship** between project workload and employee satisfaction.
-
 
 ## Key Findings
 
@@ -80,7 +82,8 @@ The model explains approximately **22% of variation** in employee satisfaction.
 
 ## Reproducibility
 
-- The full analysis pipeline is available in:analysis.do
+- The full analysis pipeline is available in:
+   `analysis.do`
 
 Steps:
 1. Load training data
@@ -92,8 +95,8 @@ Steps:
 ---
 
 ## Repository Structure
-- analysis.do
-- README.md
+analysis.do
+README.md
 ---
 
 ## Author
