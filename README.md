@@ -19,8 +19,8 @@ https://www.kaggle.com/competitions/hr-analytics-in-class
 
 Files used:
 
-- `train.csv` – training dataset
-- `test_X.csv` – test dataset
+- `train.csv` – training dataset  
+- `test_X.csv` – test dataset  
 
 Note:  
 Raw data are **not included in this repository** due to Kaggle competition rules.
@@ -45,12 +45,11 @@ Key features:
 
 To capture a **non-linear relationship**, a quadratic term was introduced:
 
-
-project_sq = number_project^2
+```stata
+gen project_sq = number_project^2
 
 This allows the model to represent an **inverse U-shaped relationship** between project workload and employee satisfaction.
 
----
 
 ## Key Findings
 
