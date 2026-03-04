@@ -95,8 +95,8 @@ Steps:
 ---
 
 ## Repository Structure
-analysis.do
-README.md
+- analysis.do
+- README.md
 ---
 
 ## Author
