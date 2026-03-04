@@ -81,11 +81,9 @@ The model explains approximately **22% of variation** in employee satisfaction.
 
 ## Reproducibility
 
-The full analysis pipeline is available in:
-analysis.do
+- The full analysis pipeline is available in:analysis.do
 
 Steps:
-
 1. Load training data
 2. Preprocess categorical variables
 3. Estimate regression model
@@ -95,11 +93,9 @@ Steps:
 ---
 
 ## Repository Structure
-
-analysis.do
-README.md
+- analysis.do
+- README.md
 ---
 
 ## Author
-
-Tohru
+T.Tohru
