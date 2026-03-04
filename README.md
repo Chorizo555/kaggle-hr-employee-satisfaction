@@ -22,7 +22,8 @@ https://www.kaggle.com/competitions/hr-analytics-in-class
 Files used:
 
 - `train.csv` – training dataset  
-- `test_X.csv` – test dataset  
+- `test_X.csv` – test dataset
+- Submission format : id,yhat
 
 Note:  
 Raw data are **not included in this repository** due to Kaggle competition rules.
